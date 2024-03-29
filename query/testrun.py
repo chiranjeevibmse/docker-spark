@@ -26,3 +26,4 @@ print("Total revenue received in the year 2010:", total_revenue)
 
 # Stop SparkSession
 spark.stop()
+#/spark/bin/spark-submit --master spark://spark-master:7077 /opt/data/testrun.py
